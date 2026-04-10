@@ -1,0 +1,15 @@
+# Development overrides - DO NOT use in production
+version: "3.8"
+
+services:
+  backend:
+    volumes:
+      - ./backend:/app
+      - /app/.venv
+    environment:
+      - APP_ENV=development
+      - DEBUG=true
+
+  db:
+    ports:
+      - "5432:5432"

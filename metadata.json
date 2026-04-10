@@ -1,0 +1,124 @@
+{
+  "project_name": "sofa website",
+  "tech_stack": {
+    "project_name": "sofa website",
+    "frontend": {
+      "framework": "React",
+      "language": "TypeScript",
+      "styling": "TailwindCSS",
+      "package_manager": "npm"
+    },
+    "backend": {
+      "framework": "FastAPI",
+      "language": "Python",
+      "orm": "SQLAlchemy"
+    },
+    "database": {
+      "db_type": "PostgreSQL",
+      "version": "15"
+    },
+    "features": [
+      "Authentication (JWT)",
+      "Docker support (Dockerfile + docker-compose)",
+      "CI/CD (GitHub Actions)",
+      "README with setup instructions",
+      "Environment variables (.env.example)"
+    ],
+    "architecture_type": "monolithic",
+    "service_connection_urls": [
+      "http://api.example.com"
+    ],
+    "environments": [
+      "development",
+      "staging",
+      "production"
+    ],
+    "github_repository": "github_backend_repo"
+  },
+  "quality_score": 56,
+  "passed": false,
+  "files_created": 72,
+  "token_usage": {
+    "total_input_tokens": 263697,
+    "total_output_tokens": 80015,
+    "total_tokens": 343712,
+    "api_calls": 11,
+    "calls": [
+      {
+        "agent": "generator",
+        "input_tokens": 11212,
+        "output_tokens": 16000,
+        "duration_seconds": 139.41
+      },
+      {
+        "agent": "reviewer",
+        "input_tokens": 26591,
+        "output_tokens": 2686,
+        "duration_seconds": 43.78
+      },
+      {
+        "agent": "security",
+        "input_tokens": 16142,
+        "output_tokens": 2807,
+        "duration_seconds": 58.44
+      },
+      {
+        "agent": "fixer",
+        "input_tokens": 8072,
+        "output_tokens": 16000,
+        "duration_seconds": 143.35
+      },
+      {
+        "agent": "reviewer",
+        "input_tokens": 36086,
+        "output_tokens": 2694,
+        "duration_seconds": 48.55
+      },
+      {
+        "agent": "security",
+        "input_tokens": 25637,
+        "output_tokens": 2325,
+        "duration_seconds": 51.27
+      },
+      {
+        "agent": "fixer",
+        "input_tokens": 9392,
+        "output_tokens": 16000,
+        "duration_seconds": 141.81
+      },
+      {
+        "agent": "reviewer",
+        "input_tokens": 42505,
+        "output_tokens": 2599,
+        "duration_seconds": 47.32
+      },
+      {
+        "agent": "security",
+        "input_tokens": 32056,
+        "output_tokens": 2224,
+        "duration_seconds": 48.58
+      },
+      {
+        "agent": "fixer",
+        "input_tokens": 10773,
+        "output_tokens": 16000,
+        "duration_seconds": 135.93
+      },
+      {
+        "agent": "evaluator",
+        "input_tokens": 45231,
+        "output_tokens": 680,
+        "duration_seconds": 18.54
+      }
+    ]
+  },
+  "duration_seconds": 747.53,
+  "created_at": "2026-04-10T08:41:22.062502+00:00",
+  "enhancements": {
+    "parallel_review": true,
+    "chunked_generation": false,
+    "checkpointing": true,
+    "incremental_fixing": true,
+    "validator": true
+  }
+}
